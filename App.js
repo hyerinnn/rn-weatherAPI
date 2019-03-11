@@ -11,7 +11,7 @@ export default class App extends Component {
     temperature:null,
     name:null
   };
-//하이
+//주석커밋..
   componentDidMount() {
     navigator.geolocation.getCurrentPosition(
       position => {
